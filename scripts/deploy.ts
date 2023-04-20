@@ -6,10 +6,10 @@ const deploy = async () => {
   await transactions.deployed()
   console.log('Transactions Contract deployed to: ', transactions.address)
   //
-  const Booking = await ethers.getContractFactory('Booking')
-  const booking = await Booking.deploy()
-  await booking.deployed()
-  console.log('Booking Contract deployed to: ', booking.address)
+  // const Booking = await ethers.getContractFactory('Booking')
+  // const booking = await Booking.deploy()
+  // await booking.deployed()
+  // console.log('Booking Contract deployed to: ', booking.address)
 
   return
 }
