@@ -10,11 +10,11 @@ const config: HardhatUserConfig = {
   networks: {
     goerli: {
       url: process.env.GOERLI_ALCHEMY_URL || '',
-      accounts: [process.env.GOERLI_PRIVATE_KEY || ''],
+      accounts: [process.env.WALLET_PRIVATE_KEY || ''],
     },
     sepolia: {
       url: process.env.SEPOLIA_ALCHEMY_URL || '',
-      accounts: [process.env.SEPOLIA_PRIVATE_KEY || ''],
+      accounts: [process.env.WALLET_PRIVATE_KEY || ''],
     },
   },
   paths: {
