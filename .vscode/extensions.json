@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-complete-tag",
+    "formulahendry.auto-rename-tag",
+    "mosapride.zenkaku",
+    "ms-azuretools.vscode-docker",
+    "oderwat.indent-rainbow",
+    "Prisma.prisma",
+    "wayou.vscode-todo-highlight",
+    "nomicfoundation.hardhat-solidity"
+  ]
+}

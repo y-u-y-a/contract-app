@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "commonjs",
+    "moduleResolution": "node", // モジュール解決を指定。nodeがマスト。
+    "resolveJsonModule": true, // jsonのimportを有効にできる
+    "allowJs": true, // jsをtsにimportできる
+    "esModuleInterop": true, // CommonJSなモジュールをimportするときにinteropするオプション。allowSyntheticDefaultImportsもオンになる
+    "forceConsistentCasingInFileNames": true, // importのファイル名の大文字小文字を判定する
+    "strict": true, // 厳格な型チェックstrictファミリーを有効に
+    "noImplicitAny": true, // 暗黙のany型をエラー
+    "noUncheckedIndexedAccess": true, // 配列の要素やオブジェクトのプロパティへのアクセスを厳密に
+    "allowUnreachableCode": false, // 到達不可能なコードがあるとエラー
+    "skipLibCheck": true, // d.tsの型チェックをスキップ
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "exclude": ["node_modules"]
+  // "include": ["."] // コンパイル対象のディレクトリ指定
+}
