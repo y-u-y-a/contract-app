@@ -16,6 +16,10 @@ const config: HardhatUserConfig = {
       url: process.env.SEPOLIA_ALCHEMY_URL || '',
       accounts: [process.env.WALLET_PRIVATE_KEY || ''],
     },
+    mumbai: {
+      url: process.env.MUMBAI_ALCHEMY_URL || '',
+      accounts: [process.env.WALLET_PRIVATE_KEY || ''],
+    },
   },
   paths: {
     sources: './src',
