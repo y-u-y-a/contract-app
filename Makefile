@@ -1,4 +1,6 @@
-# include .env.staging
+.PHONY: init
+init:
+	yarn install
 
 .PHONY: compile test node deploy-goerli deploy-sepolia
 compile:

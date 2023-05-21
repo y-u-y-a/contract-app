@@ -2,7 +2,7 @@ import { BaseProvider } from '@metamask/providers'
 import { Contract, ethers } from 'ethers'
 import { useEffect, useState } from 'react'
 
-import abiJson from '../../../artifacts/src/Transactions.sol/Transactions.json'
+import abiJson from '../../../artifacts/contracts/Transactions.sol/Transactions.json'
 
 export const useEthereum = () => {
   const [ethereum, setEthereum] = useState<BaseProvider>()
