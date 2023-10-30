@@ -10,7 +10,6 @@
     "ms-azuretools.vscode-docker",
     "oderwat.indent-rainbow",
     "Prisma.prisma",
-    "wayou.vscode-todo-highlight",
-    "nomicfoundation.hardhat-solidity"
+    "wayou.vscode-todo-highlight"
   ]
 }
